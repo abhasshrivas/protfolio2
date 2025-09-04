@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-brand {
+    font-family: cursive;
+}
+body {
+    background-color: black;
+}
+
+.nav-item :hover {
+    background-color: indianred;
+}
+h1 {
+    font-weight: 900;
+    font-size: 70px;
+}
+.html-img {
+    height: 70px;
+    width: 70px;
+}
+.js-img {
+    height: 50px;
+    width: 70px;
+}
+.blog1 {
+    font-weight: 800;
+}
+.blog2 {
+    font-weight: 800;
+}
+.blog3 {
+    font-weight: 800;
+}
+.blog4 {
+    font-weight: 800;
+}
+.aboutimg {
+    border-radius: 2ch;
+}
+.story-section {
+    width: 100%;
+    height: 500px;
+    background-image: url("https://t3.ftcdn.net/jpg/02/36/66/30/360_F_236663023_rWzCTBGv3OI4TeUsb6MqiZzFgnROq5YX.jpg");
+    background-size: cover;
+    padding-top: 170px;
+    text-align: center;
+}
+.text-content h1 {
+    font-weight: 900;
+}
+.text-content a {
+    font-weight: bold;
+}
+
+.contact {
+    font-weight: 900;
+}
+.pexel {
+    height: 100%;
+    width: 100%;
+}
+.links a {
+    color: grey;
+}
+.services a {
+    color: grey;
+}
+.address a {
+    color: grey;
+    font-weight: 600;
+}
+.address i {
+    margin-right: 20px;
+}
+.light-mode {
+    /*background-color: #121212;*/
+    background-color: lightsalmon;
+    /*color: white;*/
+}
+
+#toggleBtn {
+    padding: 10px 15px;
+    font-size: 25px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    background-color: #eee;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.light-mode #toggleBtn {
+    background-color: black;
+    color: white;
+}
+svg {
+    color: white;
+}
+.dev-image {
+    filter: grayscale(100%);
+    transition: 0.5s;
+}
+.dev-image:hover {
+    filter: grayscale(0%);
+}
+
+.download-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.download-btn:hover {
+    background-color: #0056b3;
+}
